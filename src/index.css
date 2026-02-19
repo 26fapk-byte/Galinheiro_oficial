@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+    --color-ativa-50: #f0f9fa;
+    --color-ativa-100: #d9f2f5;
+    --color-ativa-400: #54c5d0;
+    --color-ativa-500: #3eb4c0;
+    --color-ativa-600: #34939e;
+    --color-ativa-700: #2d7982;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Custom Scrollbar Hiding */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

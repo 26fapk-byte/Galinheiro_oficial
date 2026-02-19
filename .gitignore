@@ -1,0 +1,33 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+build/
+
+# Ambiente - NUNCA commite arquivos .env com chaves reais!
+.env.local
+.env.production
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporários
+*.tmp
+.cache/
+dev-dist/
+metadata.json
